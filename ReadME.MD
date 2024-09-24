@@ -52,6 +52,51 @@
 **NOTE:**  
 The blue and black plastic hats that are placed on the push buttons can be removed if necessary, for example when a shield or when an application board is plugged on top of the Nucleo board. This will avoid pressure on the buttons and consequently a possible permanent target MCU reset.
 
+### OSC Clock Supply
+
+There are four ways to configure the pins corresponding to the external high-speed clock (HSE):
+
+1. **MCO from ST-LINK:**  
+   MCO output of ST-LINK MCU is used as the input clock. This frequency cannot be changed; it is fixed at 8 MHz and connected to PF0/PD0/PH0-OSC_IN of the STM32 microcontroller.
+
+   The following configuration is needed:
+   - SB55 OFF and SB54 ON
+   - SB16 and SB50 ON
+   - R35 and R37 removed
+
+2. **HSE oscillator on-board from X3 crystal (not provided):**  
+   For typical frequencies, capacitors, and resistors, refer to the STM32 microcontroller datasheet. Also, refer to the AN2867 Application note for oscillator design guide for STM32 microcontrollers. The X3 crystal has the following characteristics: 8 MHz, 16 pF, 20 ppm, and DIP footprint. It is recommended to use 95L8000016AFXHFO manufactured by Hong Kong X'tals Limited.
+
+   The following configuration is needed:
+   - SB54 and SB55 OFF
+   - R35 and R37 soldered
+   - C33 and C34 soldered with 20 pF capacitors
+   - SB16 and SB50 OFF
+
+3. **Oscillator from external PF0/PD0/PH0:**  
+   From an external oscillator through pin 29 of the CN7 connector.
+
+   The following configuration is needed:
+   - SB55 ON
+   - SB50 OFF
+   - R35 and R37 removed
+
+4. **HSE not used:**  
+   PF0/PD0/PH0 and PF1/PD1/PH1 are used as GPIO instead of a clock.
+
+   The following configuration is needed:
+   - SB54 and SB55 ON
+   - SB16 and SB50 (MCO) OFF
+   - R35 and R37 removed
+
+---
+
+There are two possible default configurations of the HSE pins, depending on the version of the Nucleo board hardware.
+
+- The board version **MB1136 C-01** or **MB1136 C-02** is mentioned on the sticker placed on the bottom side of the PCB.
+  
+  - **MB1136 C-01:** This version is configured as HSE not used.
+  - **MB1136 C-02 (or higher):** This version is configured to use ST-LINK MCO as the clock input.
 
 - ** Buttons : **
 
