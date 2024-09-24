@@ -6,8 +6,14 @@
 ![layout](./layout_bottom.png)
 ### PINS 
 - **View :** 
+
+
 ![pins](./pins.png)
+
+
 -**Table :**
+
+
 ![tab](./tab.png)
 ### Specifications
 - **CN2 :** 
