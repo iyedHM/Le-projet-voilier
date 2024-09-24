@@ -17,7 +17,7 @@
 
 ![CN4](./CN4.png)
 
-- **LEDS : ** 
+- **LEDS :** 
 
   -**LED1(LD1;COM):**
 The tricolor LED (green, orange, red) LD1 (COM) provides information about ST-LINK
