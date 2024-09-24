@@ -142,6 +142,29 @@ There are three possible default configurations of the LSE depending on the vers
 
 ---
 
+- **USART communication:**
+
+  The USART2 interface available on PA2 and PA3 of the STM32 microcontroller can be connected to ST-LINK MCU, ST morpho connector, or to the Arduino connector. The configuration can be changed by setting the related solder bridges.
+
+  - By default, the USART2 communication between the target MCU and ST-LINK MCU is enabled, in order to support Virtual Com Port for mbed.
+    
+    - SB13 and SB14 ON
+    - SB62 and SB63 OFF
+
+  - If the communication between the target MCU PA2 (D1) or PA3 (D0) and a shield or extension board is required:
+    
+    - SB62 and SB63 should be ON
+    - SB13 and SB14 should be OFF
+
+  - In such a case, it is possible to connect another USART to ST-LINK MCU using flying wires between the ST morpho connector and CN3. For instance, on the NUCLEO-F103RB, it is possible to use USART3 available on PC10 (TX) and PC11 (RX).
+
+    Two flying wires need to be connected as follows:
+    
+    - PC10 (USART3_TX) available on CN7 pin 1 to CN3 pin RX
+    - PC11 (USART3_RX) available on CN7 pin 2 to CN3 pin TX
+
+---
+
 - ** Buttons : **
 
 ![PushB](./Button.png)
