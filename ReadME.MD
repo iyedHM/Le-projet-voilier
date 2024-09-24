@@ -98,7 +98,7 @@ There are four ways to configure the pins corresponding to the external high-spe
    - SB16 and SB50 (MCO) OFF
    - R35 and R37 removed
 
----
+
 
 There are two possible default configurations of the HSE pins, depending on the version of the Nucleo board hardware.
 
@@ -106,6 +106,41 @@ There are two possible default configurations of the HSE pins, depending on the 
   
   - **MB1136 C-01:** This version is configured as HSE not used.
   - **MB1136 C-02 (or higher):** This version is configured to use ST-LINK MCO as the clock input.
+
+---
+
+- **LOSC 32 KHz clock supply:**
+
+  There are three ways to configure the pins corresponding to the low-speed clock (LSE):
+
+  - **On-board oscillator:**  
+    X2 crystal. Refer to the Oscillator design guide for STUBS, STMBA, and STM32 microcontrollers application note (AN2867) for oscillator design guide for STM32 microcontrollers. It is recommended to use ABS25-32.768KHZ-6-T, manufactured by Abracon Corporation.
+
+  - **Oscillator from external PC14:**  
+    From an external oscillator through pin 25 of the CN7 connector.
+
+    The following configuration is needed:
+    - SB48 and SB49 ON
+    - R34 and R36 removed
+
+  - **LSE not used:**  
+    PC14 and PC15 are used as GPIOs instead of a low-speed clock.
+
+    The following configuration is needed:
+    - SB48 and SB49 ON
+    - R34 and R36 removed
+
+
+
+There are three possible default configurations of the LSE depending on the version of the Nucleo board hardware:
+
+- The board version **MB1136 C-01** or **MB1136 C-02** is mentioned on the sticker placed on the bottom side of the PCB.
+
+  - **MB1136 C-01:** This version is configured as LSE not used.
+  - **MB1136 C-02 (or higher):** This version is configured with an on-board 32 KHz oscillator.
+  - **MB1136 C-03 (or higher):** This version uses the new LSE crystal (ABS25) with G26, C31, and C32 value updates.
+
+---
 
 - ** Buttons : **
 
