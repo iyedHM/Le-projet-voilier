@@ -165,7 +165,4 @@ There are three possible default configurations of the LSE depending on the vers
 
 ---
 
-- ** Buttons :**
-
-![PushB](./Button.png)
 
