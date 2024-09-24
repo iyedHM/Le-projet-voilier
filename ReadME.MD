@@ -13,9 +13,15 @@
 - **CN2 :** 
 
 ![layout](./CN2_.png)
+
+---
+
 - **CN4 :**(Serial Wire Debug)
 
 ![CN4](./CN4.png)
+
+
+---
 
 - **LEDS:** 
 
@@ -52,7 +58,10 @@
 **NOTE:**  
 The blue and black plastic hats that are placed on the push buttons can be removed if necessary, for example when a shield or when an application board is plugged on top of the Nucleo board. This will avoid pressure on the buttons and consequently a possible permanent target MCU reset.
 
-### OSC Clock Supply
+
+---
+
+-**OSC Clock Supply**
 
 There are four ways to configure the pins corresponding to the external high-speed clock (HSE):
 
