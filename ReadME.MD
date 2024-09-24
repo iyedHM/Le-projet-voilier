@@ -6,7 +6,7 @@
 ![layout](./layout_bottom.png)
 ### PINS 
 
-![pins](./pi.png)
+![pins](./pins.png)
 
 ### Specifications
 - **CN2 :** 
