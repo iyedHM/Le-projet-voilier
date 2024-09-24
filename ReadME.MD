@@ -28,8 +28,7 @@ setup:
 
     -Slow blinking Red/Off: at power-on before USB initialization
 
-    -Fast blinking Red/Off after the first correct communication between the PC and
-ST-LINKIV2-1 (enumeration)
+    -Fast blinking Red/Off after the first correct communication between the PC and ST-LINKIV2-1 (enumeration)
 
     - Red LED On: when the initialization between the PC and ST-LINK/V2-1 is complete
     -Green LED On: after a successful target communication initialization
