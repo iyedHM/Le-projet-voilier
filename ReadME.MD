@@ -25,6 +25,7 @@ communication status. LD1 default color is red. LD1 tums to green to indicate th
 communication is in progress between the PC and the ST-LINK/V2-1, with the following
 
 setup:
+
     -Slow blinking Red/Off: at power-on before USB initialization
 
     -Fast blinking Red/Off after the first correct communication between the PC and
