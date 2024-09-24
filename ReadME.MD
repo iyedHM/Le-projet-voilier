@@ -6,6 +6,8 @@
 ![layout](./layout_bottom.png)
 ### Specifications
 - **CN2 :** 
+
 ![layout](./CN2_.png)
 - **CN4 :**(Serial Wire Debug)
+
 ![layout](./CN4.png)
