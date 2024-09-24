@@ -61,7 +61,7 @@ The blue and black plastic hats that are placed on the push buttons can be remov
 
 ---
 
--**OSC Clock Supply**
+- **OSC Clock Supply**
 
 There are four ways to configure the pins corresponding to the external high-speed clock (HSE):
 
