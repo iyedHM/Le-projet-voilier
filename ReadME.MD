@@ -5,14 +5,15 @@
 ### The bottom 
 ![layout](./layout_bottom.png)
 ### PINS 
-
+- **View :** 
 ![pins](./pins.png)
-
+-**Table :**
+![tab](./tab.png)
 ### Specifications
 - **CN2 :** 
 
 ![layout](./CN2_.png)
 - **CN4 :**(Serial Wire Debug)
 
-![layout](./CN4.png)
+![CN4](./CN4.png)
 
