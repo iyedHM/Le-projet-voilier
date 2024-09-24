@@ -8,4 +8,4 @@
 - **CN2 :** 
 ![layout](./CN2_.png)
 - **CN4 :**(Serial Wire Debug)
-![layout](./CN4.png)
+![layout](./CN4_SWD.png)
