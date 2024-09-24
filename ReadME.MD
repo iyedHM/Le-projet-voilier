@@ -11,7 +11,7 @@
 ![pins](./pins.png)
 
 
--**Table :**
+- **Table :**
 
 
 ![tab](./tab.png)
