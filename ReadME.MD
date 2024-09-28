@@ -1,30 +1,30 @@
 # Carte Nucleo 103
 ## Overview and Layout
 ### The top 
-![layout](./layout.png)
+![layout](./photos/layout.png)
 ### The bottom 
-![layout](./layout_bottom.png)
+![layout](./photos/layout_bottom.png)
 ### PINS 
 - **View :** 
 
 
-![pins](./pins.png)
+![pins](./photos/pins.png)
 
 
 - **Table :**
 
 
-![tab](./tab.png)
+![tab](./photos/tab.png)
 ### Specifications
 - **CN2 :** 
 
-![layout](./CN2_.png)
+![layout](./photos/CN2_.png)
 
 ---
 
 - **CN4 :**(Serial Wire Debug)
 
-![CN4](./CN4.png)
+![CN4](./photos/CN4.png)
 
 
 ---
@@ -173,11 +173,11 @@ There are three possible default configurations of the LSE depending on the vers
 ### GPIO
   - **Configuration:**
 
-![Configuration](./configuration_Pin.png)
+![Configuration](./photos/configuration_Pin.png)
 
   - **Output Mode:** 
 
-  ![Output](./Output.png)
+  ![Output](./photos/Output.png)
 
 
 
