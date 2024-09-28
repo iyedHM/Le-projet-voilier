@@ -170,7 +170,15 @@ There are three possible default configurations of the LSE depending on the vers
     - `PC11` (USART3_RX) available on CN7 pin 2 to CN3 pin TX
 
 ## STM32F103RB 
-### Pins 
+### GPIO
+  - **Configuration:**
+
+![Configuration](./configuration_Pin.png)
+
+  - **Output Mode:** 
+
+  ![Output](./Output.png)
+
 
 
 
