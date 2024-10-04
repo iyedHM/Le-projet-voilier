@@ -22,8 +22,7 @@ int main ( void )
 	MyGPIO_Init(MGPIO_C9);
 	
 	
-	GPIOA->CRL &= ~(0xF<<4) ;
-	GPIOA->CRL |= (0x2<<4) ;
+
 	int k;
 	while (1)
 	{
