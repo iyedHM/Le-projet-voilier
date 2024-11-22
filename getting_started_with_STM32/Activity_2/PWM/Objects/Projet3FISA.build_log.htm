@@ -1,0 +1,346 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: iyed hamrouni, lille, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DARMSTM.DLL V1.69.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
+Dialog DLL:      TARMSTM.DLL V1.67.1.0
+ 
+<h2>Project:</h2>
+C:\Users\MSI\Desktop\test_git\Le-projet-voilier\getting_started_with_STM32\Activity_2\PWM\ProjetVide.uvprojx
+Project File Date:  10/08/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Reel'
+Application/principal.c(1): warning: In file included from...
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+Application/principal.c(3): warning: In file included from...
+../../Include\MyPWM.h(6): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+    6 | TIM_TypeDef * Timer ; // TIM1 <E0> TIM4
+      |                               ^
+../../Include\MyPWM.h(14): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   14 | * @param -> Param<E8> t r e sous forme d <92> une s t r u c t u r e ( son a d re s se ) con ten an t l e s
+      |                  ^
+../../Include\MyPWM.h(14): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   14 | * @param -> Param<E8> t r e sous forme d <92> une s t r u c t u r e ( son a d re s se ) con ten an t l e s
+      |                                          ^
+../../Include\MyPWM.h(16): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   16 | * @Note -> F onc ti on <E0> l a n c e r s y s t <E9>matiquement avan t d <92> a l l e r pl u s en d<E9> t a i l dans l e s
+      |                        ^
+../../Include\MyPWM.h(16): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   16 | * @Note -> F onc ti on <E0> l a n c e r s y s t <E9>matiquement avan t d <92> a l l e r pl u s en d<E9> t a i l dans l e s
+      |                                                 ^
+../../Include\MyPWM.h(16): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   16 | * @Note -> F onc ti on <E0> l a n c e r s y s t <E9>matiquement avan t d <92> a l l e r pl u s en d<E9> t a i l dans l e s
+      |                                                                          ^
+../../Include\MyPWM.h(16): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   16 | * @Note -> F onc ti on <E0> l a n c e r s y s t <E9>matiquement avan t d <92> a l l e r pl u s en d<E9> t a i l dans l e s
+      |                                                                                                    ^
+../../Include\MyPWM.h(28): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   28 |         * @Note Activele channel sp<E9>cifi<E9> suTimerr le timer sp<E9>cifi<E9>
+      |                                    ^
+../../Include\MyPWM.h(28): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   28 |         * @Note Activele channel sp<E9>cifi<E9> suTimerr le timer sp<E9>cifi<E9>
+      |                                            ^
+../../Include\MyPWM.h(28): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   28 |         * @Note Activele channel sp<E9>cifi<E9> suTimerr le timer sp<E9>cifi<E9>
+      |                                                                     ^
+../../Include\MyPWM.h(28): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   28 |         * @Note Activele channel sp<E9>cifi<E9> suTimerr le timer sp<E9>cifi<E9>
+      |                                                                             ^
+../../Include\MyPWM.h(29): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   29 |         * la gestion de la configuration I /On<92>est pas faite dans cette fonction
+      |                                               ^
+../../Include\MyPWM.h(30): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   30 |         * ni le r<E9>glage de la p<E9>riode de la PWM (ARR, PSC)
+      |                  ^
+../../Include\MyPWM.h(30): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   30 |         * ni le r<E9>glage de la p<E9>riode de la PWM (ARR, PSC)
+      |                                   ^
+Application/principal.c(2): warning: In file included from...
+../../Include\MyGPIO.h(4): warning: padding size of 'MyGPIO_Struct_TypeDef' with 2 bytes to alignment boundary [-Wpadded]
+    4 | typedef struct
+      |         ^
+Application/principal.c(3): warning: In file included from...
+../../Include\MyPWM.h(4): warning: padding size of 'MyTimer_Struct_TypeDef' with 2 bytes to alignment boundary [-Wpadded]
+    4 | typedef struct
+      |         ^
+Application/principal.c(18): warning: mixing declarations and code is incompatible with standards before C99 [-Wdeclaration-after-statement]
+   18 |         MyGPIO_Struct_TypeDef  insMGPIO_A10;
+      |                                ^
+Application/principal.c(5): warning: no previous extern declaration for non-static variable 'IT_function' [-Wmissing-variable-declarations]
+    5 |  void (*IT_function)(void);
+      |         ^
+Application/principal.c(5): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+    5 |  void (*IT_function)(void);
+      |  ^
+21 warnings generated.
+compiling principal.c...
+assembling startup_stm32f10x_md.s...
+../../Source/MyGPIO.c(1): warning: In file included from...
+../../Include\MyGPIO.h(3): warning: In file included from...
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+../../Source/MyGPIO.c(5): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+    5 |         GPIOA->CRL &= ~(0xF<<4) ;
+      |                    ~~ ^~~~~~~~~
+../../Source/MyGPIO.c(21): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   21 |                 GPIOStructPtr->GPIO->CRL &= ~(0xF<<(GPIOStructPtr->GPIO_Pin*4));
+      |                                          ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../Source/MyGPIO.c(25): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   25 |                 GPIOStructPtr->GPIO->CRL |= (GPIOStructPtr->GPIO_Conf<<(GPIOStructPtr->GPIO_Pin*4));
+      |                                          ~~  ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../Source/MyGPIO.c(29): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   29 |                 GPIOStructPtr->GPIO->CRL |= ((GPIOStructPtr->GPIO_Conf-2)<<(GPIOStructPtr->GPIO_Pin*4));
+      |                                          ~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../Source/MyGPIO.c(34): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   34 |                 GPIOStructPtr->GPIO->CRL |= (GPIOStructPtr->GPIO_Conf<<(GPIOStructPtr->GPIO_Pin*4));    
+      |                                          ~~  ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../Source/MyGPIO.c(38): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   38 |                 GPIOStructPtr->GPIO->CRH &= ~(0xF<<((GPIOStructPtr->GPIO_Pin-8)*4));
+      |                                          ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../Source/MyGPIO.c(42): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   42 |                 GPIOStructPtr->GPIO->CRH |= (GPIOStructPtr->GPIO_Conf<<((GPIOStructPtr->GPIO_Pin-8)*4));
+      |                                          ~~  ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../Source/MyGPIO.c(46): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   46 |                 GPIOStructPtr->GPIO->CRH |= ((GPIOStructPtr->GPIO_Conf-2)<<((GPIOStructPtr->GPIO_Pin-8)*4));
+      |                                          ~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../Source/MyGPIO.c(51): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   51 |                 GPIOStructPtr->GPIO->CRH |= (GPIOStructPtr->GPIO_Conf<<((GPIOStructPtr->GPIO_Pin-8)*4));        
+      |                                          ~~  ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../Source/MyGPIO.c(1): warning: In file included from...
+../../Include\MyGPIO.h(4): warning: padding size of 'MyGPIO_Struct_TypeDef' with 2 bytes to alignment boundary [-Wpadded]
+    4 | typedef struct
+      |         ^
+../../Source/MyGPIO.c(80): warning: no newline at end of file [-Wnewline-eof]
+   80 | }
+      |  ^
+14 warnings generated.
+compiling MyGPIO.c...
+RTE/Device/STM32F103RB/system_stm32f10x.c(65): warning: In file included from...
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+RTE/Device/STM32F103RB/system_stm32f10x.c(167): warning: no previous extern declaration for non-static variable 'AHBPrescTable' [-Wmissing-variable-declarations]
+  167 | __I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+      |             ^
+RTE/Device/STM32F103RB/system_stm32f10x.c(167): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+  167 | __I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+      |     ^
+RTE/Device/STM32F103RB/system_stm32f10x.c(409): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  409 |   tmp = AHBPrescTable[((RCC->CFGR & RCC_CFGR_HPRE) >> 4)];
+      |         ^~~~~~~~~~~~~
+5 warnings generated.
+compiling system_stm32f10x.c...
+../../Source/MyPWM.c(1): warning: In file included from...
+../../Include\MyPWM.h(3): warning: In file included from...
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+../../Source/MyPWM.c(1): warning: In file included from...
+../../Include\MyPWM.h(6): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+    6 | TIM_TypeDef * Timer ; // TIM1 <E0> TIM4
+      |                               ^
+../../Include\MyPWM.h(14): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   14 | * @param -> Param<E8> t r e sous forme d <92> une s t r u c t u r e ( son a d re s se ) con ten an t l e s
+      |                  ^
+../../Include\MyPWM.h(14): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   14 | * @param -> Param<E8> t r e sous forme d <92> une s t r u c t u r e ( son a d re s se ) con ten an t l e s
+      |                                          ^
+../../Include\MyPWM.h(16): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   16 | * @Note -> F onc ti on <E0> l a n c e r s y s t <E9>matiquement avan t d <92> a l l e r pl u s en d<E9> t a i l dans l e s
+      |                        ^
+../../Include\MyPWM.h(16): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   16 | * @Note -> F onc ti on <E0> l a n c e r s y s t <E9>matiquement avan t d <92> a l l e r pl u s en d<E9> t a i l dans l e s
+      |                                                 ^
+../../Include\MyPWM.h(16): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   16 | * @Note -> F onc ti on <E0> l a n c e r s y s t <E9>matiquement avan t d <92> a l l e r pl u s en d<E9> t a i l dans l e s
+      |                                                                          ^
+../../Include\MyPWM.h(16): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   16 | * @Note -> F onc ti on <E0> l a n c e r s y s t <E9>matiquement avan t d <92> a l l e r pl u s en d<E9> t a i l dans l e s
+      |                                                                                                    ^
+../../Include\MyPWM.h(28): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   28 |         * @Note Activele channel sp<E9>cifi<E9> suTimerr le timer sp<E9>cifi<E9>
+      |                                    ^
+../../Include\MyPWM.h(28): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   28 |         * @Note Activele channel sp<E9>cifi<E9> suTimerr le timer sp<E9>cifi<E9>
+      |                                            ^
+../../Include\MyPWM.h(28): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   28 |         * @Note Activele channel sp<E9>cifi<E9> suTimerr le timer sp<E9>cifi<E9>
+      |                                                                     ^
+../../Include\MyPWM.h(28): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   28 |         * @Note Activele channel sp<E9>cifi<E9> suTimerr le timer sp<E9>cifi<E9>
+      |                                                                             ^
+../../Include\MyPWM.h(29): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   29 |         * la gestion de la configuration I /On<92>est pas faite dans cette fonction
+      |                                               ^
+../../Include\MyPWM.h(30): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   30 |         * ni le r<E9>glage de la p<E9>riode de la PWM (ARR, PSC)
+      |                  ^
+../../Include\MyPWM.h(30): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   30 |         * ni le r<E9>glage de la p<E9>riode de la PWM (ARR, PSC)
+      |                                   ^
+../../Source/MyPWM.c(7): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+    7 |         PSC = ((periode*72e3)/(65536)) ;
+      |             ~  ~~~~~~~~~~~~~~^~~~~~~~
+../../Source/MyPWM.c(10): warning: implicit conversion turns floating-point number into integer: 'double' to 'unsigned int' [-Wfloat-conversion]
+   10 |         ARR = ((periode*72e3)/(PSC+1));
+      |             ~  ~~~~~~~~~~~~~~^~~~~~~~
+../../Source/MyPWM.c(19): warning: implicit conversion loses integer precision: 'unsigned int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+   19 |         Timer->Timer->ARR=ARR;
+      |                          ~^~~
+../../Source/MyPWM.c(21): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+   21 |         Timer->Timer->PSC = PSC;
+      |                           ~ ^~~
+../../Source/MyPWM.c(22): warning: implicit conversion loses integer precision: 'unsigned int' to 'unsigned short' [-Wimplicit-int-conversion]
+   22 |         Timer->CCR= duty_cycle*(ARR+1)/100;
+      |                   ~ ~~~~~~~~~~~~~~~~~~^~~~
+../../Source/MyPWM.c(9): warning: mixing declarations and code is incompatible with standards before C99 [-Wdeclaration-after-statement]
+    9 |         unsigned int ARR;
+      |                      ^
+../../Source/MyPWM.c(1): warning: In file included from...
+../../Include\MyPWM.h(4): warning: padding size of 'MyTimer_Struct_TypeDef' with 2 bytes to alignment boundary [-Wpadded]
+    4 | typedef struct
+      |         ^
+../../Source/MyPWM.c(24): warning: unused parameter 'Prio' [-Wunused-parameter]
+   24 | void MyTimer_ActiveIT ( TIM_TypeDef * Timer , char Prio ,void (*IT_function)(void)){
+      |                                                    ^
+../../Source/MyPWM.c(50): warning: no previous prototype for function 'TIM2_IRQHandler' [-Wmissing-prototypes]
+   50 | void TIM2_IRQHandler(void) {
+      |      ^
+../../Source/MyPWM.c(50): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   50 | void TIM2_IRQHandler(void) {
+      | ^
+      | static 
+../../Source/MyPWM.c(56): warning: no previous prototype for function 'TIM3_IRQHandler' [-Wmissing-prototypes]
+   56 | void TIM3_IRQHandler(void) {
+      |      ^
+../../Source/MyPWM.c(56): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   56 | void TIM3_IRQHandler(void) {
+      | ^
+      | static 
+../../Source/MyPWM.c(61): warning: no previous prototype for function 'TIM1_UP_IRQHandler' [-Wmissing-prototypes]
+   61 | void TIM1_UP_IRQHandler(void) {
+      |      ^
+../../Source/MyPWM.c(61): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   61 | void TIM1_UP_IRQHandler(void) {
+      | ^
+      | static 
+../../Source/MyPWM.c(66): warning: no previous prototype for function 'TIM4_IRQHandler' [-Wmissing-prototypes]
+   66 | void TIM4_IRQHandler(void) {
+      |      ^
+../../Source/MyPWM.c(66): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   66 | void TIM4_IRQHandler(void) {
+      | ^
+      | static 
+../../Source/MyPWM.c(3): warning: no previous extern declaration for non-static variable 'LED_swtich' [-Wmissing-variable-declarations]
+    3 | void (*LED_swtich)(void);
+      |        ^
+../../Source/MyPWM.c(3): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+    3 | void (*LED_swtich)(void);
+      | ^
+../../Source/MyPWM.c(29): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   29 |         NVIC->IP[25]=(0x30);
+      |         ^~~~~~~~
+C:/Users/MSI/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\core_cm3.h(1392): note: expanded from macro 'NVIC'
+ 1392 | #define NVIC                ((NVIC_Type      *)     NVIC_BASE     )   /*!< NVIC configuration struct */
+      |                             ^
+../../Source/MyPWM.c(34): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   34 |         NVIC->IP[28]=(0x30);
+      |         ^~~~~~~~
+C:/Users/MSI/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\core_cm3.h(1392): note: expanded from macro 'NVIC'
+ 1392 | #define NVIC                ((NVIC_Type      *)     NVIC_BASE     )   /*!< NVIC configuration struct */
+      |                             ^
+../../Source/MyPWM.c(39): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   39 |         NVIC->IP[29]=(0x30);
+      |         ^~~~~~~~
+C:/Users/MSI/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\core_cm3.h(1392): note: expanded from macro 'NVIC'
+ 1392 | #define NVIC                ((NVIC_Type      *)     NVIC_BASE     )   /*!< NVIC configuration struct */
+      |                             ^
+../../Source/MyPWM.c(44): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   44 |         NVIC->IP[30]=(0x30);
+      |         ^~~~~~~~
+C:/Users/MSI/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\core_cm3.h(1392): note: expanded from macro 'NVIC'
+ 1392 | #define NVIC                ((NVIC_Type      *)     NVIC_BASE     )   /*!< NVIC configuration struct */
+      |                             ^
+34 warnings generated.
+compiling MyPWM.c...
+linking...
+Program Size: Code=3660 RO-data=252 RW-data=0 ZI-data=1640  
+".\Objects\Projet3FISA.axf" - 0 Error(s), 74 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103RB
+  ./RTE/_Reel
+  C:/Users/MSI/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/MSI/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+
+   * Component: Keil::Device:Startup@1.0.0
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/system_stm32f10x.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
